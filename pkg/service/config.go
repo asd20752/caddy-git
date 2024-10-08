@@ -103,9 +103,6 @@ func (rc *RepositoryConfig) validate() error {
 	if rc.Address == "" {
 		return errors.ErrRepositoryConfigAddressEmpty
 	}
-	if !strings.HasSuffix(rc.Address, ".git") {
-		return errors.ErrRepositoryConfigAddressUnsupported.WithArgs(rc.Address)
-	}
 
 	switch {
 	case strings.HasPrefix(rc.Address, "https://"), strings.HasPrefix(rc.Address, "http://"):
