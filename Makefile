@@ -15,7 +15,7 @@ all: info
 	@rm -rf ../xcaddy-$(PLUGIN_NAME)/*
 	@mkdir -p ../xcaddy-$(PLUGIN_NAME) && cd ../xcaddy-$(PLUGIN_NAME) && \
 		xcaddy build $(CADDY_VERSION) --output ../$(PLUGIN_NAME)/bin/caddy \
-		--with github.com/greenpau/caddy-git@$(LATEST_GIT_COMMIT)=$(BUILD_DIR)
+		--with github.com/asd20752/caddy-git@$(LATEST_GIT_COMMIT)=$(BUILD_DIR)
 	@#--with github.com/go-git/go-git/v5@v5.3.0=/home/greenpau/dev/go/src/github.com/go-git/go-git
 	@#bin/caddy run -config assets/config/Caddyfile
 	@for f in `find ./assets -type f -name 'Caddyfile'`; do bin/caddy fmt --overwrite $$f; done
@@ -75,7 +75,7 @@ dep:
 	@echo "Making dependencies check ..."
 	@go install golang.org/x/lint/golint@latest
 	@go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
-	@go install github.com/greenpau/versioned/cmd/versioned@latest
+	@go install github.com/asd20752/versioned/cmd/versioned@latest
 	@go install github.com/kyoh86/richgo@latest
 
 release:

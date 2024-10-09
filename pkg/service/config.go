@@ -15,7 +15,7 @@
 package service
 
 import (
-	"github.com/greenpau/caddy-git/pkg/errors"
+	"github.com/asd20752/caddy-git/pkg/errors"
 	"strings"
 )
 

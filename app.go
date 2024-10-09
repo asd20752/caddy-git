@@ -17,7 +17,7 @@ package git
 import (
 	"fmt"
 	"github.com/caddyserver/caddy/v2"
-	"github.com/greenpau/caddy-git/pkg/service"
+	"github.com/asd20752/caddy-git/pkg/service"
 	"go.uber.org/zap"
 )
 

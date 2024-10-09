@@ -1,7 +1,7 @@
 # caddy-git
 
-<a href="https://github.com/greenpau/caddy-git/actions/" target="_blank"><img src="https://github.com/greenpau/caddy-git/workflows/build/badge.svg?branch=main"></a>
-<a href="https://pkg.go.dev/github.com/greenpau/caddy-git" target="_blank"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
+<a href="https://github.com/asd20752/caddy-git/actions/" target="_blank"><img src="https://github.com/asd20752/caddy-git/workflows/build/badge.svg?branch=main"></a>
+<a href="https://pkg.go.dev/github.com/asd20752/caddy-git" target="_blank"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
 <a href="https://caddy.community" target="_blank"><img src="https://img.shields.io/badge/community-forum-ff69b4.svg"></a>
 <a href="https://caddyserver.com/docs/modules/git" target="_blank"><img src="https://img.shields.io/badge/caddydocs-git-green.svg"></a>
 
@@ -12,9 +12,9 @@ Inspired by [this comment](https://github.com/vrongmeal/caddygit/pull/5#issuecom
 Please ask questions either here or via LinkedIn. I am happy to help you! @greenpau
 
 Please see other plugins:
-* [caddy-security](https://github.com/greenpau/caddy-security)
-* [caddy-trace](https://github.com/greenpau/caddy-trace)
-* [caddy-systemd](https://github.com/greenpau/caddy-systemd)
+* [caddy-security](https://github.com/asd20752/caddy-security)
+* [caddy-trace](https://github.com/asd20752/caddy-trace)
+* [caddy-systemd](https://github.com/asd20752/caddy-systemd)
 
 <!-- begin-markdown-toc -->
 ## Table of Contents
